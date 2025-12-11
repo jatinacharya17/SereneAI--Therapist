@@ -1,30 +1,23 @@
-SereneAI – AI Mental Health Therapist-
-SereneAI is an AI-driven mental wellness assistant built using Streamlit and OpenAI. It provides supportive, emotionally aware conversations and includes optional crisis detection and emergency call functionality through Twilio. The application is designed to offer safe, empathetic dialogue and a calm, user-friendly interface.
+SereneAI – AI Mental Health Therapist
 
-Features-
->Real-time AI therapist chat using OpenAI models
->Streaming responses for smoother and faster interaction
->Emotion and safety detection for high-risk messages
->Optional emergency calling workflow through Twilio
->Clean Streamlit UI with custom styling
->Modular architecture for easy improvement and scaling
+SereneAI is an AI-powered mental wellness assistant built with Streamlit and OpenAI. It provides supportive, real-time therapeutic conversations with safety monitoring and an optional emergency-call workflow using Twilio. The project includes a clean chat interface, custom styling, and modular utility files for chat handling, safety checks, and call triggers.
 
-Project Structure-
-SereneAI-Therapist/
-│── app.py
-│── requirements.txt
-│── README.md
-│── assets/
-│     └── style.css
-│── utils/
-      ├── chat.py
-      ├── safety.py
-      ├── twilio_call.py
-      └── __init__.py
+Features:
+AI therapist chat, streaming responses, emotion/safety detection, optional Twilio emergency calling, custom UI.
 
-Technology Stack-
->Streamlit
->Python
->OpenAI API
->Twilio API (optional)
->Custom CSS for styling
+Tech Stack:
+Python, Streamlit, OpenAI API, Twilio API, CSS.
+
+Setup:
+Clone the repo, install requirements, add your OPENAI_API_KEY and optional Twilio keys in a .env file, then run:
+
+streamlit run app.py
+
+
+Structure:
+app.py (main app), utils/ (chat, safety, Twilio logic), assets/style.css, requirements.txt.
+
+Deployment:
+Works on Streamlit Cloud for chat functionality. Twilio calling requires backend hosting (e.g., Render).
+
+SereneAI is a supportive assistant, not a replacement for licensed mental-health professionals.
