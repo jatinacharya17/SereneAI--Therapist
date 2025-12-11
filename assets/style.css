@@ -1,0 +1,50 @@
+.user-row, .bot-row {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.user-row {
+    justify-content: flex-end;
+}
+
+.bot-row {
+    justify-content: flex-start;
+}
+
+.user-avatar, .bot-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-avatar {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3177/3177440.png'); /* user icon */
+    background-size: cover;
+}
+
+.bot-avatar {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4712/4712100.png'); /* robot icon */
+    background-size: cover;
+}
+
+.user-bubble, .bot-bubble {
+    max-width: 65%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+
+.user-bubble {
+    background: white;
+    border-radius: 18px 18px 0 18px;
+    color: black;
+}
+
+.bot-bubble {
+    background: white;
+    border-radius: 18px 18px 18px 0;
+    color: black    ;
+}
